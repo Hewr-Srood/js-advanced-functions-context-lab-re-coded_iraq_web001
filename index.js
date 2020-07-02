@@ -15,7 +15,7 @@ let allWagesFor = function () {
     }.bind(this), 0) // <== Hm, why did we need to add bind() there? We'll discuss soon!
 
     return payable
-} 
+}
 
 
 function createEmployeeRecord(employeeArray){
